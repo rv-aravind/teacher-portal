@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: rgba(208, 208, 208, 0.4);
+  font-family: "Roboto", sans-serif;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  padding-left: 50px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login .login_form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px;
+}
+.login .login_form .heading {
+  color: #ff0000;
+}
+.login .login_form .icons {
+  display: inline-block;
+}
+.login .login_form .icons svg {
+  border-right: 2px solid rgb(219, 214, 214);
+  height: 20px;
+  width: 20px;
+  padding: 0 5px 1px 0;
+  box-sizing: content-box;
+}
+.login .login_form .user_name {
+  position: relative;
+}
+.login .login_form .user_name .user-icon {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+}
+.login .login_form .password {
+  position: relative;
+}
+.login .login_form .password .password-icon {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+}
+.login .login_form .password .eye-icon {
+  position: absolute;
+  top: 38px;
+  right: 10px;
+}
+.login .login_form .password .eye-icon svg {
+  border: none;
+}
+.login .login_form .login_btn {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+}
+
+.nav_section {
+  background-color: #ffffff;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.nav_section .navbar_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_section .navbar_header .navbar_logo {
+  color: #ff0000;
+  font-size: 28px;
+  font-weight: 600;
+}
+.nav_section .navbar_header .navbar_links a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.table {
+  background-color: #ffffff;
+}
+.table th {
+  color: #888;
+}
+.table th:not(:last-child) span {
+  display: block;
+  border-right: 2px solid gray;
+}
+.table tbody td .name_circle {
+  display: inline-block;
+  background-color: #0d6efd;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.table tbody td .dropdown .btn {
+  border-radius: 50%;
+  padding: 4px 8px;
+}
+.table tbody td .dropdown .dropdown-toggle::after {
+  vertical-align: 0 !important;
+  border-top: 0.5em solid !important;
+  border-right: 0.5em solid transparent !important;
+  border-left: 0.5em solid transparent !important;
+}
+
+.table_btn {
+  text-decoration: none !important;
+  color: #ffffff;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.table_btn:hover {
+  color: #ffffff;
+}
+
+.modal .modal_form .icons {
+  display: inline-block;
+  position: absolute;
+  top: 38px;
+  left: 10px;
+}
+.modal .modal_form .icons svg {
+  border-right: 2px solid rgb(219, 214, 214);
+  height: 20px;
+  width: 20px;
+  padding: 0 8px 1px 0;
+  box-sizing: content-box;
+}
+.modal .modal_form .modal_form_name,
+.modal .modal_form .modal_form_subject,
+.modal .modal_form .modal_form_mark {
+  position: relative;
+}
+.modal .modal_btn {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+}
+
+.update-btn{
+  text-decoration: none !important;
+  color: #ffffff;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 12px;
+}
